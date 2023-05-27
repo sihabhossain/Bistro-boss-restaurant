@@ -44,7 +44,7 @@
         "name": "Escalope de Veau",
         "recipe": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
         "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-2-370x247.jpg",
-        "category": "popular",
+        "category": "dessert",
         "price": 12.5
     },
     {
@@ -100,7 +100,7 @@
         "name": "Fish Parmentier",
         "recipe": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
         "image": "https://cristianonew.ukrdevs.com/wp-content/uploads/2016/08/product-8-370x247.jpg",
-        "category": "popular",
+        "category": "pizza",
         "price": 9.5
     },
     {
