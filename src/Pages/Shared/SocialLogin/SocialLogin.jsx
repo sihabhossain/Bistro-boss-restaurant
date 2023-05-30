@@ -1,7 +1,8 @@
 import React, { useContext } from "react";
 import { FaGoogle } from "react-icons/fa";
-import { AuthContext } from "../../../providers/AuthProvider";
+
 import { useLocation, useNavigate } from "react-router-dom";
+import { AuthContext } from "../../../Providers/AuthProvider";
 
 const SocialLogin = () => {
   const { googleSignIn } = useContext(AuthContext);
@@ -14,7 +15,6 @@ const SocialLogin = () => {
   const handleGoogle = () => {
     googleSignIn().then((result) => {
       const loggeduser = result.user;
-      console.log(loggeduser);
 
       const saveUser = {
         name: loggeduser.displayName,
